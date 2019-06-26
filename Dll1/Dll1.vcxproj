@@ -18,6 +18,24 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Amazon.cpp" />
+    <ClCompile Include="Barbarian.cpp" />
+    <ClCompile Include="door.cpp" />
+    <ClCompile Include="mous.cpp" />
+    <ClCompile Include="Necromancer.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Screen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Amazon.h" />
+    <ClInclude Include="Barbarian.h" />
+    <ClInclude Include="door.h" />
+    <ClInclude Include="Mous.h" />
+    <ClInclude Include="Necromancer.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Skreen.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{7D15F455-D448-4919-A0B1-F89DB10F50E4}</ProjectGuid>
@@ -84,12 +102,13 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;DLL1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile />
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
